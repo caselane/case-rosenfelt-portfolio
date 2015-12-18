@@ -3,8 +3,8 @@ body {
 	font-size: 1.5em;
 }
 header {
-  font-size: 1.25rem;
-  padding: 6em 0;
+  font-size: 1.3rem;
+  padding: 6em 0em;
   background-image: url(images/StockPhoto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,7 +65,27 @@ ul {
   text-align: center;
 }
 li {
-  color: white;
   display: inline-block;
   padding: 2em 1em 3em 1em;
+}
+.icon {
+  padding: 2em 1em 3em 1em;
+  color: white;
+}
+@media only screen and (max-width: 800px){
+  .project-bar {
+    background-repeat: repeat;
+  }
+  header {
+    font-size: 1em;
+    padding: 3em 0em;
+  }
+}
+@media only screen and (max-width: 605px) {
+  li {
+    padding: 2em 0em 1em 0em;
+  }
+  body {
+    font-size: 1em;
+  }
 }
