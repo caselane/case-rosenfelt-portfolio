@@ -1,6 +1,71 @@
+body {
+	font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
+	font-size: 1.5em;
+}
 header {
+  font-size: 1.25rem;
   padding: 6em 0;
-  background-image: url('https://images.unsplash.com/photo-1434064511983-18c6dae20ed5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5f29d037842c14cb81cddea387221b20');
+  background-image: url(images/StockPhoto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Megrim", Georgia, serif;
+  color: white;
+  text-align: center;
+  border: 0.5em solid #6692B1;
+  border-radius: 0.5em;
+  margin-bottom: 1.5em;
+  padding-right: 1em;
+}
+#compilationOfProjects {
+  font-family: "Megrim", Georgia, serif;
+  padding: 1em 0em 1em 0em;
+  text-align: center;
+  font-size: 2em;
+}
+.project-bar {
+  font-family: "Megrim", Georgia, serif;
+  background-repeat: repeat-x;
+  background-size: contain;
+  color: #6692B1;
+  text-align: center;
+  width: 98%;
+  height: 5em;
+  display: block;
+  padding-top: 3em;
+  border: 0.5em solid #6692B1;
+  border-radius: 0.5em;
+  text-shadow: 0.1em 0.1em white;
+}
+#shakespeare {
+  background-image: url(images/FreshPrinceImage.jpg);
+}
+#aboutMe {
+  background-image: url(images/AboutMeImage.jpg);
+}
+#NYTimesHack {
+  background-image: url(images/NYTimesHackImage.jpg);
+}
+#karmaImage {
+  background-image: url(images/KarmaImage.jpg);
+}
+#this {
+  color: black;
+}
+footer {
+  background-color: #6692B1;
+}
+#mediaAccounts {
+   font-family: "Megrim", Georgia, serif;
+   color: white;
+   text-align: center;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+li {
+  color: white;
+  display: inline-block;
+  padding: 2em 1em 3em 1em;
 }
